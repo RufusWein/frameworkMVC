@@ -1,0 +1,83 @@
+/* 
+    Created on : 19 may. 2019, 0:28:30
+    Author     : SrWhi
+*/
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cabecera {
+    display: inline-flex;
+    height: 1cm;
+    padding-top: 0.4cm;
+    box-shadow: 0px 0px 10px 1px;
+    width: 100%;
+}
+
+.cabecera>div {
+    padding-left: .8cm;
+}
+
+.cuerpo {
+    height: 85vh;
+    display: table;
+    width: 100%;
+    background: lightgray;
+}
+
+.cuerpo>span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 5em;
+}
+
+.cabecera>a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 1.1mm;
+}
+
+form {
+    width: 40%;
+    margin: auto;
+    background: white;
+    border-radius: 3mm;
+    text-align: center;
+}
+
+form>p {
+    width: 100%;
+    display: flex;
+}
+
+form>p>* {
+    width: 50%;
+    display: block;
+    margin: .3cm;
+}
+
+form>p>span {
+    text-align: right;
+}
+
+form>p>input {
+    border-radius: 2mm;
+}
+
+form>button {
+    margin: 0mm 0mm 5mm 0mm;
+    padding: 2mm 5mm;
+}
+
+.pie {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding-top: 2mm;
+}
